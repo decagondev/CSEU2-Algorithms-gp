@@ -1,13 +1,14 @@
 # Agenda 
     
 ## Algorithms (Day 1)
-- Talk about what is an algorithm (Look at Multiple Sorces) [I DO]
-- Disscuss Polya (first pass solution) [I DO]
+- Talk about "What is an algorithm [I DO]
+- Review Polya [I DO]
 - 5 min break
-- Disscuss Recursion (as a group) [WE DO]
-- Go over some example problems (Algorithms) [WE DO]
-- Students try to solve some problems (Algorithms) [YOU DO]
-- Take a look at todays Project (Wrapup) [I DO]
+- Use Polya to create some solutions [WE DO]
+- Disscus How we measure time complexity [WE DO]
+- 5 min break
+- Brainstorm Real world Applications of run-time analysis [YOU DO]
+- Net Steps for your project (Wrap up)
 
 ## Algorithms (Day 2)
 - Disscuss Time Complexity and Space Complexity (Big O) [I DO]
