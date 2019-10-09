@@ -11,10 +11,10 @@
 - Net Steps for your project (Wrap up)
 
 ## Algorithms (Day 2)
-- Disscuss Time Complexity and Space Complexity (Big O) [I DO]
+- Recap: Time Complexity [I DO]
+- Describe: Space Complexity [WE DO]
 - 5 min break
-- Solve a problem and optimize it (first and second pass) [WE DO]
-- Research Big 0 (for a search) [YOU DO]
-- disscuss your findings [WE DO]
+- Analyze: Time & space complexity of a block of code [YOU DO]
 - 5 min break
-- Look over todays tasks in the repo (Wrapup) [I DO]
+- Apply: Runtime analysis to Polya's problem solving technique [WE DO]
+- Wrap up [I DO]
