@@ -1,3 +1,8 @@
+- Understand the problem and ask clarifying questions
+- Come up with a plan, write it out in sentences/comments/pseudocode
+- Implement a first pass idea
+- Evaluate (fix bugs, big-O analysis, readability, redundancy) and iterate
+
 # Polya's Problem Solving (Reworded)
 1. What is the problem asking me to do?
 
