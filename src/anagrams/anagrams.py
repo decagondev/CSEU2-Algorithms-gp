@@ -51,3 +51,20 @@ def first_pass_anagrams(words):
     max_anagrams = max(anagrams.items(), key=operator.itemgetter(1))[0]
 
     print(max_anagrams)
+
+
+def secons_pass_anagrams(words):
+    # create a new dictionary
+    anagrams = {}
+    longest = None
+    # GENERATE ALL SETS of ANAGRAMS
+    for word in words:
+        # convert the list to a string
+        signature = "".join(sorted(word.lower()))
+        if signature not in anagrams:
+            anagrams[signature] = []     
+        anagrams[signature].append(word)
+        # Update the largest set as we create them
+        if longest == None or len(anagrams[signature]) > len(anagrams[longest]):
+            longest = signature  
+    print(anagrams[longest])
