@@ -13,27 +13,30 @@ import math
 def baz(n):
     s = 0
 
-    for i in range(n):
-        for j in range(int(math.sqrt(n))):
-            s += i * j
+    for i in range(n): #  O(n)
+        for j in range(int(math.sqrt(n))): # O(sqrt(n)) n * sqrt n
+            s += i * j # O(1)
     
-    return s
+    return s # O(1)
+# O(n sqrt(n))
 
 # 2
 def frotz(n):
-    s = 0
+    s = 0 # O(1)
 
-    for i in range(n):
-        for j in range(2 * n):
-            s += i * j
+    for i in range(n): # O(n)
+        for j in range(2 * n): # O(2n) => O(n) => O(n^2)
+            s += i * j # O(1)
 
-    return s
+    return s # O(1)
+# O(2 n^2) => O(n^2)
 
 # 3
 def bar(x):
-    sum = 0
-    for i in range(0, 1463):
-        i += sum
-        for _ in range(0, x):
-            for _ in range(x, x + 15):
-                sum += 1
+    sum = 0 # O(1)
+    for i in range(0, 1463): # O(1436) =>  O(1)
+        i += sum # O(1)
+        for _ in range(0, x): # O(x)
+            for _ in range(x, x + 15): # O(15) => O(1)
+                sum += 1 # O(1) * O(x) * O(1) => O(1 * X * 1) => O(x)
+# O(n) linear 
