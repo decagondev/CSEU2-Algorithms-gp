@@ -14,7 +14,7 @@ def baz(n):
     s = 0
 
     for i in range(n):
-        for j in range(int(math.sqrt(n))):
+        for j in range(int(sqrt(n))):
             s += i * j
     
     return s
