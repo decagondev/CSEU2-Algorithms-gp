@@ -35,7 +35,7 @@ def e_rec_pow(a, b):
     # Error checking
     try:
         # try to take value and convert to int
-        val = int(b)
+        _ = int(b)
     # otherwise throw and error and catch the exception
     except ValueError:
         print("Exponent (b) must be an integer")

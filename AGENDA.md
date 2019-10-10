@@ -15,7 +15,7 @@
 - Describe: Space Complexity [WE DO]
 - 5 min break
 - Analyze: Time & space complexity of a block of code [WE DO]
-- Challenge (Time and space complexity [YOU DO]
+- Challenge (Time Complexity) [YOU DO]
 - 5 min break
 - Apply: Runtime analysis to Polya's problem solving technique [WE DO]
 - Wrap up [I DO]

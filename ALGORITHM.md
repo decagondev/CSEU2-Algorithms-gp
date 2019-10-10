@@ -46,6 +46,7 @@ walk briskly
 
 
 ## wash hair based on old head and shoulders bottle
+
 1. Rinse
 2. Lather
 3. Repeat
