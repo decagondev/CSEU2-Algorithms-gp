@@ -8,13 +8,13 @@ Formally:
 4. Drop leading multiplicative constants from each of the Big-Os.
 5. From all of the Big-Os that are added, drop all but the biggest, dominating one.
 """
-
+import math
 # 1
 def baz(n):
     s = 0
 
     for i in range(n):
-        for j in range(int(sqrt(n))):
+        for j in range(int(math.sqrt(n))):
             s += i * j
     
     return s
