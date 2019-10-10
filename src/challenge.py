@@ -34,6 +34,6 @@ def bar(x):
     sum = 0
     for i in range(0, 1463):
         i += sum
-        for j in range(0, x):
-            for k in range(x, x + 15):
+        for _ in range(0, x):
+            for _ in range(x, x + 15):
                 sum += 1
